@@ -1,0 +1,82 @@
+#body {
+    width: 100%;
+    background-color: rgb(168, 139, 199);
+}
+
+#wrapper {
+    width: 100%;
+    border: 1px solid rgb(118, 44, 202);
+    overflow: hidden;
+    background-color: rgb(98, 68, 131);
+}
+
+#logo {
+    width: 90%;
+    float:left; 
+}
+
+#navbar {
+   
+    float: left; 
+    text-align: justify;
+}
+
+.img1 {
+    width: 125px;
+    height: 100px;
+}
+
+#header {
+    font-size: 250%;
+    color: rgb(54, 6, 109);
+    text-align: center;
+    background-color: rgb(146, 113, 184);
+    border: 1px solid  rgb(118, 44, 202);
+    padding: 35px;
+}
+
+#intro {
+    text-align: center;
+    font-size: 150%;
+    color: rgb(54, 6, 109);
+    background-color: rgb(146, 113, 184);
+    border: 1px solid  rgb(118, 44, 202);
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#box {
+    color: rgb(54, 6, 109);
+    background-color: rgb(146, 113, 184);
+    border: 1px solid  rgb(118, 44, 202);
+    width: 640px;
+    text-align: center;
+    vertical-align: top;
+    padding: 35px;
+    
+}
+
+#boxtext {
+    color: rgb(54, 6, 109);
+    font-size: large;
+}
+
+#footer {
+    width: 100%;
+    color: rgb(54, 6, 109);
+    text-align: center;
+    background-color: rgb(146, 113, 184);
+    border: 1px solid  rgb(118, 44, 202);
+    padding: 35px;
+    /* float: left; */
+    /* display: flexbox; */
+    justify-content: center;
+    /* align-items: center; */
+    /* display: inline-flex; */
+    /* align-items: stretch; */
+}
+
+.footerimg {
+    width: 250px;
+    height: 200px;
+}

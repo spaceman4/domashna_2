@@ -76,12 +76,13 @@
     border: 1px solid  rgb(118, 44, 202);
     /* padding: 35px; */
     /* float: left; */
-    /* display: flexbox; */
+    display: flex;
     justify-content: center;
     /* align-items: center; */
     /* display: inline-flex; */
-    /* align-items: stretch; */
     border-radius: 10px;
+    /* flex: auto; */
+    /* align-items: stretch; */
 }
 
 .footerimg {

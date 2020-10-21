@@ -1,6 +1,7 @@
 #body {
-    width: 100%;
+    width: 95%;
     background-color: rgb(168, 139, 199);
+    margin: auto;
 }
 
 #wrapper {
@@ -8,6 +9,7 @@
     border: 1px solid rgb(118, 44, 202);
     overflow: hidden;
     background-color: rgb(98, 68, 131);
+    border-radius: 10px;
 }
 
 #logo {
@@ -33,6 +35,7 @@
     background-color: rgb(146, 113, 184);
     border: 1px solid  rgb(118, 44, 202);
     padding: 35px;
+    border-radius: 10px;
 }
 
 #intro {
@@ -43,6 +46,7 @@
     border: 1px solid  rgb(118, 44, 202);
     padding-left: 300px;
     padding-right: 300px;
+    border-radius: 10px;
 }
 
 #box {
@@ -50,15 +54,17 @@
     background-color: rgb(146, 113, 184);
     border: 1px solid  rgb(118, 44, 202);
     width: 640px;
-    text-align: center;
     vertical-align: top;
     padding: 35px;
+    text-align: center;
+    border-radius: 10px;
     
 }
 
 #boxtext {
     color: rgb(54, 6, 109);
-    font-size: large;
+    font-size: larger;
+    text-align: justify;
 }
 
 #footer {
@@ -67,16 +73,22 @@
     text-align: center;
     background-color: rgb(146, 113, 184);
     border: 1px solid  rgb(118, 44, 202);
-    padding: 35px;
+    /* padding: 35px; */
     /* float: left; */
     /* display: flexbox; */
     justify-content: center;
     /* align-items: center; */
     /* display: inline-flex; */
     /* align-items: stretch; */
+    border-radius: 10px;
 }
 
 .footerimg {
     width: 250px;
     height: 200px;
 }
+
+
+/* kako da napraam header naslovot i boxtextovite da bidat edna tabela so colspan 3 za headerot i colspan 1 za boxtextovite ili drug nacin */
+
+/* kako da ostaam ramnomerno mesto pomegju slikite najdole so flex ili nesto poednostavno*/
